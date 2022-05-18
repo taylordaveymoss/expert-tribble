@@ -14,4 +14,17 @@ header {
     padding: 50px;
 }
 
-nav 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+}
