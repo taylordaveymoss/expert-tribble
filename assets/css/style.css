@@ -42,6 +42,15 @@ nav a:hover {
     background-color: #a9a9a9;
 }
 
+/* Sections */
+section {
+    text-align: center;
+}
+
+#work {
+    
+}
+
 /* Footer */
 footer {
     background-color: #000000;
