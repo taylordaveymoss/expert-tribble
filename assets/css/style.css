@@ -7,24 +7,42 @@ body {
     margin: 0;
 }
 
+/* Header */
 header {
     text-align: center;
-    background: black;
-    color: white;
+    background: #000000;
+    color: #ffffff;
     padding: 50px;
 }
 
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #808080;
+}
+
 nav ul {
+    width: 100%;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    background-color: grey;
-}
-
-nav li {
-    display: inline;
+    padding: 0;
+    margin: 0
 }
 
 nav a {
-    color: white;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 25px 25px;
+}
+
+nav a:hover {
+    background-color: #a9a9a9;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
 }
