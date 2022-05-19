@@ -47,8 +47,25 @@ section {
     text-align: center;
 }
 
-#work {
-    
+#work main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 0 0;
+    text-align: center;
+}
+  
+.card h2 {
+    padding: 20px;
+    background: #808080;
+    color: #ffffff;
+}
+  
+.card img {
+    width: 100%;
+    min-width: 400px;
 }
 
 /* Footer */
